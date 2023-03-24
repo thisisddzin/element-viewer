@@ -13,7 +13,6 @@ function elementViewer(options = {
     timeout = setInterval(function () {
       var rect = element.getBoundingClientRect()
       var isVisible = rect.top <= 50 && rect.bottom >= element.clientHeight / 2;
-      console.log('interval closed', isVisible);
 
       if (isVisible) {
         callback();
