@@ -1,18 +1,18 @@
 function elementViewer(options = { 
   elementSelector: 'body', 
   visualizationTimer: 3000 
-}, callback = function () { 
+}, callback = () => { 
   console.log('Element viewed by 3 seconds (default).') 
 }) {
-  var { elementSelector, visualizationTimer } = options
-  var timeout
-  var element = document.querySelector(elementSelector)
+  const { elementSelector, visualizationTimer } = options
+  let timeout
+  const element = document.querySelector(elementSelector)
   
-  window.addEventListener('scroll', function () {
+  window.addEventListener('scroll', () => {
     clearInterval(timeout)
-    timeout = setInterval(function () {
-      var rect = element.getBoundingClientRect()
-      var isVisible = rect.top <= 50 && rect.bottom >= element.clientHeight / 2;
+    timeout = setInterval(() => {
+      const rect = element.getBoundingClientRect()
+      const isVisible = rect.top <= 50 && rect.bottom >= element.clientHeight / 2;
 
       if (isVisible) {
         callback();
