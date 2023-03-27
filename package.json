@@ -1,0 +1,12 @@
+{
+  "name": "Element Viewer",
+  "version": "1.0.0",
+  "description": "Know if some element is being viewed and trigger to anything you want.",
+  "author": "Adenilson Santos",
+  "private": true,
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
