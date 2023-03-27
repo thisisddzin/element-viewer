@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Know if some element is being viewed and trigger to anything you want.",
   "author": "Adenilson Santos <adenilsonblog@gmail.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "babel --presets @babel/preset-env src -d dist/lib && uglifyjs dist/lib/* -o dist/element-viewer.min.js -c -m --source-map",
     "test": "echo \"Error: no test specified\" && exit 1"
