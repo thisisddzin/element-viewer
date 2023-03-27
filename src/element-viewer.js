@@ -4,8 +4,8 @@ function elementViewer(options = {
 }, callback = () => { 
   console.log('Element viewed by 3 seconds (default).') 
 }) {
-  const { elementSelector, visualizationTimer } = options
   let timeout
+  const { elementSelector, visualizationTimer } = options
   const element = document.querySelector(elementSelector)
   
   window.addEventListener('scroll', () => {

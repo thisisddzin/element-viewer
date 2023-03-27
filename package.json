@@ -1,0 +1,26 @@
+{
+  "name": "element-viewer",
+  "version": "1.0.0",
+  "description": "Know if some element is being viewed and trigger to anything you want.",
+  "author": "Adenilson Santos <adenilsonblog@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisisddzin/element-viewer.git"
+  },
+  "keywords": ["Observer", "Element", "Node", "Viewer"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisddzin/element-viewer/issues"
+  },
+  "homepage": "https://github.com/thisisddzin/element-viewer"
+}
