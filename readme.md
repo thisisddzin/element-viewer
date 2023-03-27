@@ -1,4 +1,4 @@
-** USAGE:
+## USAGE:
 ```js
 elementViewer({
   elementSelector: '.stamped-io', // the element selector to observe if being visualized
