@@ -4,23 +4,29 @@
   "description": "Know if some element is being viewed and trigger to anything you want.",
   "author": "Adenilson Santos <adenilsonblog@gmail.com>",
   "private": true,
-  "dependencies": {
-    "@babel/cli": "^7.21.0",
-    "@babel/core": "^7.21.3",
-    "@babel/preset-env": "^7.20.2"
-  },
-
   "scripts": {
+    "build": "babel --presets @babel/preset-env src -d dist/lib && uglifyjs dist/lib/* -o dist/element-viewer.min.js -c -m --source-map",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/thisisddzin/element-viewer.git"
   },
-  "keywords": ["Observer", "Element", "Node", "Viewer"],
-  "license": "ISC",
+  "keywords": [
+    "Observer",
+    "Element",
+    "Node",
+    "Viewer"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/thisisddzin/element-viewer/issues"
   },
-  "homepage": "https://github.com/thisisddzin/element-viewer"
+  "homepage": "https://github.com/thisisddzin/element-viewer",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "uglify-js": "^3.17.4"
+  }
 }
