@@ -1,6 +1,6 @@
 {
   "name": "element-viewer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Know if some element is being viewed and trigger to anything you want.",
   "author": "Adenilson Santos <adenilsonblog@gmail.com>",
   "private": false,

@@ -1,7 +1,7 @@
 ## INSTALLATION
 ### SCRIPT
 ```html
-<script src="https://unpkg.com/element-viewer@1.0.1/dist/element-viewer.min.js"></script>
+<script src="https://unpkg.com/element-viewer@1.0.2/dist/element-viewer.min.js"></script>
 ```
 ### NPM
 ```bash
@@ -23,4 +23,5 @@ elementViewer({
 
 ## DEVELOPMENT
 - Light Weight on Bundlephobia
+- The final file, minified and with babel is: dist/element-viewer.min.js
 
